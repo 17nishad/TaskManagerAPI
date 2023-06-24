@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "taskId": 1,
+      "title": "Complete project proposal",
+      "description": "Write and submit the project proposal by the deadline",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "taskId": 2,
+      "title": "Schedule team meeting",
+      "description": "Coordinate with team members and set a date for the next team meeting",
+      "completed": true,
+      "priority": "medium"
+    },
+    {
+      "taskId": 3,
+      "title": "Prepare presentation slides",
+      "description": "Create slides for the upcoming client presentation",
+      "completed": false,
+      "priority": "high"
+    },
+    {
+      "taskId": 4,
+      "title": "Review and finalize design mockups",
+      "description": "Provide feedback on the design mockups and finalize them for development",
+      "completed": false,
+      "priority": "medium"
+    },
+    {
+      "taskId": 5,
+      "title": "Update website content",
+      "description": "Add new content and update existing content on the company website",
+      "completed": true,
+      "priority": "low"
+    },
+    {
+      "taskId": 6,
+      "title": "Test application functionality",
+      "description": "Perform thorough testing of the application to identify and fix any issues",
+      "completed": false,
+      "priority": "medium"
+    }
+  ]
+}
