@@ -33,6 +33,25 @@ class Validator {
     if (taskIdFound) return false;
     return true;
   }
+
+  static validateUpdateTaskData(updateTaskData) {
+    if (
+      updateTaskData.hasOwnProperty("title") &&
+      updateTaskData.hasOwnProperty("description") &&
+      updateTaskData.hasOwnProperty("completed") &&
+      updateTaskData.hasOwnProperty("priority")
+    ) {
+      return {
+        status: true,
+        message: "Task has been updated",
+      };
+    }
+
+    return {
+      status: false,
+      message: "Please provide the all properties to update",
+    };
+  }
 }
 
 module.exports = Validator;
